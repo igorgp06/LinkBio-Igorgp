@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* variáveis */
+
+:root {
+    /* palheta de cores */
+    --thistle: rgb(202, 180, 217);
+    --plum: rgb(194, 145, 242, 1);
+    --mediumPurple: rgb(174, 126, 242);
+    --royalBlue: rgb(4, 75, 217, 1);
+    --floralWhite: rgb(242, 239, 235);
+    --gainsboro: rgb(223, 205, 224);
+
+    /* sobreposição das cores do bootstrap */
+    --bs-primary: var(--thistle);
+    --bs-secondary: var(--plum);
+    --bs-success: var(--mediumPurple);
+    --bs-info: var(--royalBlue);
+    --bs-warning: var(--floralWhite);
+}
