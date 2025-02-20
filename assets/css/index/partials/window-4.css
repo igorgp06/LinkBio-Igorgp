@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* window-4 */
+
+.window-4 {
+    width: 100%;
+    height: 16%;
+    background-color: var(--mediumPurple);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    padding: 1rem;
+}
+
+.window-4 .porfolio {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 0.8rem;
+}
+
+.window-4 .porfolio i {
+    font-size: 2.6rem;
+    color: black;
+    animation: fly 4s ease-in-out infinite;
+}
+
+.window-4 .porfolio h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: black;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

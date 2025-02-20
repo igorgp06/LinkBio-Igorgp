@@ -7,11 +7,11 @@
 :root {
     /* palheta de cores */
     --gainsboro: rgb(223, 205, 224);
-    --thistle: rgb(202, 180, 217);
+    --thistle: #cab4d9;
     --plum: rgb(194, 145, 242, 1);
     --mediumPurple: rgb(174, 126, 242);
     --royalBlue: rgb(4, 75, 217, 1);
-    --floralWhite: rgb(242, 239, 235);
+    --floralWhite: #f2efeb;
 
     /* fontes */
     --principal: 'lato', Arial, Helvetica, sans-serif;
