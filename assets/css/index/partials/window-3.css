@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* window-3 */
+
+.window-3 {
+    height: 100%;
+    height: 32%;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
+}
+
+.window-3 .window-3-content {
+    border-radius: 12px;
+    background-color: var(--floralWhite);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 0.8rem;
+}
+
+.window-3 .window-3-content-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.window-3 .window-3-content-text h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black;
+}
+
+.window-3 .window-3-img {
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    border-radius: 8px;
+    background-image: url(../../../static/images/index/project-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.window-3 .social-medias {
+    border-radius: 12px;
+    width: 50%;
+    height: 185px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.window-3 .social-medias a {
+    background-color: var(--floralWhite);
+    border-radius: 10px;
+    width: 45%;
+    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.window-3 .social-medias i {
+    font-size: 2.8rem;
+    color: var(--plum);
+}
+
+.window-3 .social-medias .youtube:hover i {
+    color: var(--mediumPurple);
+    transition: color 0.4s ease-in-out;
+}
+
+.window-3 .social-medias .github:hover i {
+    color: var(--mediumPurple);
+    transition: color 0.4s ease-in-out;
+}
+
+.window-3 .social-medias .linkedin:hover i {
+    color: var(--mediumPurple);
+    transition: color 0.4s ease-in-out;
+}
+
+.window-3 .social-medias .instagram:hover i {
+    color: var(--mediumPurple);
+    transition: color 0.4s ease-in-out;
+}
