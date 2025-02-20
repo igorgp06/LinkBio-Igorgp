@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* window-2 */
+
+.window-2 {
+    width: 100%;
+    height: 16%;
+    background-color: var(--mediumPurple);
+    border-radius: 12px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.window-2 .window-2-content {
+    font-size: 1.1rem;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 0.4rem;
+    color: var(--floralWhite);
+    text-align: center;
+}
