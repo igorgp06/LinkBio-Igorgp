@@ -43,7 +43,7 @@
 .window-1 .dev-name span {
     font-size: 1rem;
     color: black;
-    font-weight: 500;
+    font-weight: 550;
 }
 
 .window-1 .logo {
@@ -65,5 +65,27 @@
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 372px) {
+    .window-1 .dev-name h1 {
+        font-size: 1.2rem;
+        font-weight: 650;
+    }
+    
+    .window-1 .dev-name span {
+        font-size: 0.8rem;
+    }
+
+    .window-1 .logo {
+        width: 35px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    
+    .window-1 .logo img {
+        width: 100%;
     }
 }
