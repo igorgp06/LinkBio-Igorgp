@@ -51,7 +51,7 @@
 
 .window-3 .social-medias {
     border-radius: 12px;
-    width: 50%;
+    width: 45%;
     height: 185px;
     display: flex;
     flex-wrap: wrap;
@@ -63,8 +63,8 @@
 .window-3 .social-medias a {
     background-color: var(--floralWhite);
     border-radius: 10px;
-    width: 47%;
-    height: 47%;
+    width: 45%;
+    height: 45%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

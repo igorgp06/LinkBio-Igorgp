@@ -5,9 +5,9 @@
 body {
     font-family: var(--principal);
     display: flex;
-    align-items: top;
+    align-items: center;
     justify-content: center;
-    background-color: var(--thistle);
+    background-color: var(--floralWhite);
     width: 100%;
     min-height: 100vh;
     padding-top: 1rem;
@@ -33,5 +33,5 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.8rem;
 }

@@ -22,6 +22,8 @@ O projeto segue o seguinte padrão de sufixos:
 
 Problemas/Bugs encontrados ao decorrer do desenvolvimento do projeto serão listados aqui com o seu ID, uma breve descrição, a versão em que foi encontrado e em qual versão foi solucionado.
 
+- [x] Bug 1: as caixas que contém as redes sociais quebram seu display em telas muito pequenas. Bug encontrado na versão 1.4, resolvido na versão 1.5.
+
 ## Licença
 
 Este código está sob uma licença personalizada que permite apenas a **visualização** do código.  
