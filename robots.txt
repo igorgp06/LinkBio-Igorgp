@@ -1,0 +1,2 @@
+User-agent: *
+https://linkbio.igdeveloper.com.br/index.html
