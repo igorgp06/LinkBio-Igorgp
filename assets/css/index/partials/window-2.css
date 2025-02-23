@@ -40,6 +40,7 @@
 .window-2 .hard-skills-list li i {
     font-size: 1.2rem;
     color: black;
+    transition: color 0.4s ease-in-out;
 }
 
 .window-2 .hard-skills-list li i:hover {
