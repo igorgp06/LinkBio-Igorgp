@@ -5,12 +5,13 @@
 .window-1 {
     width: 100%;
     height: 12%;
-    background-color: var(--floralWhite);
+    background-color: var(--color-3);
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
+    border: 1px solid var(--color-6);
 }
 
 .window-1 .dev-info {
@@ -36,13 +37,13 @@
 
 .window-1 .dev-name h1 {
     font-size: 1.4rem;
-    color: black;
+    color: var(--color-5);
     font-weight: 650;
 }
 
 .window-1 .dev-name span {
     font-size: 1rem;
-    color: black;
+    color: var(--color-5);
     font-weight: 550;
 }
 

@@ -7,15 +7,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--floralWhite);
+    background-color: var(--color-1);
     width: 100%;
     min-height: 100vh;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-image: url('../../../static/svgs/layered-waves-haikei.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .main {

@@ -6,13 +6,22 @@
 
 :root {
     /* palheta de cores */
-    --gainsboro: rgb(223, 205, 224);
-    --thistle: #cab4d9;
-    --plum: rgb(194, 145, 242, 1);
-    --mediumPurple: rgb(174, 126, 242);
-    --royalBlue: rgb(4, 75, 217, 1);
-    --floralWhite: #f2efeb;
+    --color-1: #05080F;
+    --color-2: #E1E7EF;
+    --color-3: #0B111E;
+    --color-4: #7F6CE0;
+    --color-5: #E1E7EF;
+    --color-6: #222F44;
 
     /* fontes */
     --principal: 'lato', Arial, Helvetica, sans-serif;
 }
+
+/*     
+--gainsboro: rgb(223, 205, 224);
+    --thistle: #cab4d9;
+    --plum: rgb(194, 145, 242, 1);
+    --mediumPurple: rgb(174, 126, 242);
+    --royalBlue: rgb(4, 75, 217, 1);
+    --floralWhite: #f2efeb; 
+    */
