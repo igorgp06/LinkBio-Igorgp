@@ -5,9 +5,10 @@
 .window-2 {
     width: 100%;
     height: 9%;
-    background-color: var(--floralWhite);
+    background-color: var(--color-3);
     border-radius: 12px;
     padding: 1rem;
+    border: 2px solid var(--color-6);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +27,7 @@
 .window-2 .hard-skills-title {
     font-size: 1.3rem;
     font-weight: 500;
-    color: black;
+    color: var(--color-5);
     margin-bottom: 0.2rem;
 }
 
@@ -39,10 +40,10 @@
 
 .window-2 .hard-skills-list li i {
     font-size: 1.2rem;
-    color: black;
+    color: var(--color-4);
     transition: color 0.4s ease-in-out;
 }
 
 .window-2 .hard-skills-list li i:hover {
-    color: var(--mediumPurple);
+    color: var(--color-2);
 }

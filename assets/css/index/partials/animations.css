@@ -4,7 +4,7 @@
 
 .window-1,
 .window-2,
-.window-3-content,
+.window-3,
 .social-media-box,
 .window-4,
 .window-5 {
@@ -13,7 +13,7 @@
 
 .window-1:hover,
 .window-2:hover,
-.window-3-content:hover,
+.window-3:hover,
 .social-media-box:hover,
 .window-4:hover {
     transform: translateY(-3px) scale(1.01);
