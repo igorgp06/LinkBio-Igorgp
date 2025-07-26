@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* bg */
+
+.star-background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.4);
+    animation: pulse-subtle var(--star-animation-duration, 4s) ease-in-out infinite;
+}
+
+.meteor {
+    position: absolute;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1), transparent);
+    border-radius: 50%;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+    transform-origin: 0% 0%;
+    opacity: 0;
+    transform: rotate(215deg) translateX(0);
+    
+    animation: meteor var(--meteor-animation-duration, 5s) linear infinite;
+}
+
+@keyframes pulse-subtle {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes meteor {
+    0% {
+        transform: rotate(215deg) translateX(0);
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0.5;
+    }
+
+    55% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: rotate(215deg) translateX(-500px);
+        opacity: 0;
+    }
+}

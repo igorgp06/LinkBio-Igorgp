@@ -5,13 +5,13 @@
 .window-4 {
     width: 100%;
     height: 10%;
-    background-color: var(--mediumPurple);
+    background-color: var(--color-4);
     border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
     padding: 1rem;
+    border: 2px solid var(--color-6);
 }
 
 .window-4 .porfolio {
