@@ -1,6 +1,6 @@
 # Linkbio - Igor Gonçalves | DEV
 
-Linkbio para adicionar nas minhas redes sociais, com o intuito de facilitar o acesso de usuários mobile no meu portfólio e em minhas redes sociais. 
+Linkbio para adicionar em redes sociais, com o intuito de facilitar o acesso de usuários mobile e reunir todas as minhas redes sociais em um só lugar.
 
 ## Controle Versional (GIT)
 

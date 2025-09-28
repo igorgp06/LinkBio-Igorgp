@@ -25,7 +25,7 @@
 }
 
 .window-2 .hard-skills-title {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 500;
     color: var(--color-5);
     margin-bottom: 0.2rem;
@@ -39,7 +39,7 @@
 }
 
 .window-2 .hard-skills-list li i {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: var(--color-4);
     transition: color 0.4s ease-in-out;
 }
