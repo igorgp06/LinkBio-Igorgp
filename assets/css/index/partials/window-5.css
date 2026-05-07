@@ -1,14 +1,43 @@
 @charset "UTF-8";
 
-/* window-5 */
+/* janela 5 */
 
 .window-5 {
+    background-color: var(--color-4);
+    padding: 0.95rem;
+}
+
+.porfolio {
     width: 100%;
-    height: 32%;
-    border-radius: 12px;
+    height: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: start;
+    gap: 0.8rem;
+}
+
+.porfolio i {
+    font-size: 2.6rem;
+    color: black;
+    animation: fly 4s ease-in-out infinite;
+}
+
+.porfolio h2 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: black;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }

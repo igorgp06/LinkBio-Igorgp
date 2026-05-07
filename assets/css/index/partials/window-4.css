@@ -1,50 +1,100 @@
 @charset "UTF-8";
 
-/* window-4 */
+/* janela 4 */
 
 .window-4 {
-    width: 100%;
-    height: 10%;
-    background-color: var(--color-4);
+    height: 100%;
+    height: 32%;
     border-radius: 12px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    border: 2px solid var(--color-6);
-}
-
-.window-4 .porfolio {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     gap: 0.8rem;
 }
 
-.window-4 .porfolio i {
-    font-size: 2.6rem;
-    color: black;
-    animation: fly 4s ease-in-out infinite;
+.window-4-content {
+    border-radius: 12px;
+    background-color: var(--color-3);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 0.8rem;
 }
 
-.window-4 .porfolio h2 {
-    font-size: 1.6rem;
+.window-4-content-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.window-4-text-title {
+    padding-bottom: 0.3rem;
+    color: var(--color-5);
+    font-size: 1.2rem;
     font-weight: 500;
-    color: black;
 }
 
-@keyframes fly {
-    0% {
-        transform: translateY(0);
-    }
+.window-4-img {
+    width: 100%;
+    height: 100px;
+    background-image: url(../../../static/images/index/project-1.webp);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
 
-    50% {
-        transform: translateY(-5px);
-    }
+.social-medias {
+    border-radius: 12px;
+    width: 50%;
+    height: 185px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
 
-    100% {
-        transform: translateY(0);
-    }
+.social-medias a {
+    background-color: var(--color-3);
+    border-radius: 10px;
+    width: 45%;
+    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-medias a:hover {
+    transform: translateY(-3px) scale(1.05);
+}
+
+.social-medias i {
+    font-size: 2.8rem;
+    color: var(--color-5);
+    transition: all 0.3s ease-in-out;
+}
+
+.social-medias .whatsapp:hover i {
+    color: var(--color-4);
+}
+
+.social-medias .github:hover i {
+    color: var(--color-4);
+}
+
+.social-medias .linkedin:hover i {
+    color: var(--color-4);
+}
+
+.social-medias .instagram:hover i {
+    color: var(--color-4);
 }

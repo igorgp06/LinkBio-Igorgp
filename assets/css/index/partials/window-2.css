@@ -1,49 +1,8 @@
 @charset "UTF-8";
 
-/* window-3 */
+/* janela 2 */
 
 .window-2 {
-    width: 100%;
-    height: 9%;
-    background-color: var(--color-3);
-    border-radius: 12px;
-    padding: 1rem;
-    border: 2px solid var(--color-6);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 0.95rem;
 }
 
-.window-2 .hard-skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    gap: 0.4rem;
-}
-
-.window-2 .hard-skills-title {
-    font-size: 1.4rem;
-    font-weight: 500;
-    color: var(--color-5);
-    margin-bottom: 0.2rem;
-}
-
-.window-2 .hard-skills-list {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.window-2 .hard-skills-list li i {
-    font-size: 1.4rem;
-    color: var(--color-4);
-    transition: color 0.4s ease-in-out;
-}
-
-.window-2 .hard-skills-list li i:hover {
-    color: var(--color-2);
-}
