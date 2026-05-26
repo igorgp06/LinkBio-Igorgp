@@ -10,20 +10,21 @@
     align-items: center;
 }
 
-.dev-credits {
+.copyright {
+
     font-size: 0.75rem;
     color: var(--color-5);
+    text-align: center;
     opacity: 0.8;
+}
+
+.dev-credits {
+    font-size: 0.70rem;
+    color: var(--color-5);
+    opacity: 0.8;
+    letter-spacing: 0.01rem;
 }
 
 .dev-credits a {
     color: var(--color-4);
-}
-
-.copyright {
-    letter-spacing: 0.01rem;
-    font-size: 0.70rem;
-    color: var(--color-5);
-    text-align: center;
-    opacity: 0.8;
 }
