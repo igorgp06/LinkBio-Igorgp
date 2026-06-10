@@ -68,8 +68,7 @@
     font-size: 1.7rem;
 }
 
-.sparkle,
-.button-sparkle {
+.sparkle {
     position: absolute;
     width: 0.55rem;
     height: 0.55rem;
@@ -77,9 +76,7 @@
 }
 
 .sparkle::before,
-.sparkle::after,
-.button-sparkle::before,
-.button-sparkle::after {
+.sparkle::after {
     content: "";
     position: absolute;
     inset: 50% auto auto 50%;
@@ -91,8 +88,7 @@
     transform: translate(-50%, -50%);
 }
 
-.sparkle::after,
-.button-sparkle::after {
+.sparkle::after {
     transform: translate(-50%, -50%) rotate(90deg);
 }
 
@@ -150,7 +146,10 @@
 }
 
 @keyframes vip-card-shine {
-    0%, 58%, 100% {
+
+    0%,
+    58%,
+    100% {
         transform: translateX(-120%);
     }
 
@@ -160,7 +159,10 @@
 }
 
 @keyframes sparkle-pop {
-    0%, 38%, 100% {
+
+    0%,
+    38%,
+    100% {
         opacity: 0;
         transform: scale(0) rotate(0deg);
     }

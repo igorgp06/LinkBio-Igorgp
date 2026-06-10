@@ -32,6 +32,28 @@
     box-shadow: 0 14px 34px rgba(127, 108, 224, 0.25);
 }
 
+.gem-bg{
+    position: relative;
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 1rem;
+    background: linear-gradient(145deg, rgba(225, 231, 239, 0.20), rgba(185, 173, 255, 0.750));
+}
+
+.external-bg{
+    position: relative;
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 1rem;
+    background: linear-gradient(145deg, rgba(225, 231, 239, 0.20), rgba(127, 108, 224, 0.25));
+}
+
 .vip-button-primary::before {
     content: "";
     position: absolute;
@@ -54,27 +76,6 @@
 .vip-button i {
     flex: 0 0 auto;
     font-size: 1.55rem;
-}
-
-.vip-button-icon {
-    position: relative;
-    display: grid;
-    place-items: center;
-    flex: 0 0 auto;
-    width: 2.7rem;
-    height: 2.7rem;
-    border-radius: 1rem;
-    background-color: rgba(5, 8, 15, 0.12);
-}
-
-.vip-button-icon i {
-    font-size: 1.55rem;
-}
-
-.button-sparkle {
-    top: 0.45rem;
-    right: 0.45rem;
-    animation: sparkle-pop 2.4s ease-in-out infinite;
 }
 
 .vip-button span:last-child {
