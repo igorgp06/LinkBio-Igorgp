@@ -4,8 +4,8 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://linkbio.igdeveloper.com.br/index.html</loc>
-        <lastmod>2026-05-07</lastmod>
-        <changefreq>daily</changefreq>
+        <lastmod>2026-06-09</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
 </urlset>

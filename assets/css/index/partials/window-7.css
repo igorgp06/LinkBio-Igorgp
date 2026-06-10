@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/* janela 7 - ações do canal VIP */
+
+.window-7.vip-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.65rem;
+}
+
+.vip-button {
+    min-height: 76px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.9rem;
+    border: 1px solid var(--color-6);
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vip-button:hover {
+    transform: translateY(-3px);
+}
+
+.vip-button-primary {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--color-4), #b9adff);
+    border-color: rgba(225, 231, 239, 0.22);
+    color: #05080f;
+    box-shadow: 0 14px 34px rgba(127, 108, 224, 0.25);
+}
+
+.vip-button-primary::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(115deg, transparent 0%, rgba(255, 255, 255, 0.28) 48%, transparent 72%);
+    transform: translateX(-130%);
+    animation: button-sweep 4.8s ease-in-out infinite;
+}
+
+.vip-button-secondary {
+    background-color: var(--color-3);
+    color: var(--color-5);
+}
+
+.vip-button-secondary:hover {
+    border-color: rgba(127, 108, 224, 0.65);
+    box-shadow: 0 14px 34px rgba(0, 0, 0, 0.18);
+}
+
+.vip-button i {
+    flex: 0 0 auto;
+    font-size: 1.55rem;
+}
+
+.vip-button-icon {
+    position: relative;
+    display: grid;
+    place-items: center;
+    flex: 0 0 auto;
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 1rem;
+    background-color: rgba(5, 8, 15, 0.12);
+}
+
+.vip-button-icon i {
+    font-size: 1.55rem;
+}
+
+.button-sparkle {
+    top: 0.45rem;
+    right: 0.45rem;
+    animation: sparkle-pop 2.4s ease-in-out infinite;
+}
+
+.vip-button span:last-child {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.vip-button strong {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.vip-button small {
+    font-size: 0.76rem;
+    font-weight: 700;
+    opacity: 0.7;
+}
+
+@keyframes button-sweep {
+
+    0%,
+    52%,
+    100% {
+        transform: translateX(-130%);
+    }
+
+    70% {
+        transform: translateX(130%);
+    }
+}
+
+@media (min-width: 390px) {
+    .window-7.vip-actions {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .vip-button {
+        min-height: 92px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+}
